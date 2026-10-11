@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-focus-page"
+description = "Enables the focus_page command without any pre-configured scope."
+commands.allow = ["focus_page"]
+
+[[permission]]
+identifier = "deny-focus-page"
+description = "Denies the focus_page command without any pre-configured scope."
+commands.deny = ["focus_page"]

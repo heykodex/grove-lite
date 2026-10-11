@@ -1,0 +1,27 @@
+/* Grove Lite palette, taken from the logo: charcoal ink on warm cream. */
+:root {
+  --ink: #313131;
+  --ink-deep: #292929;
+  --ink-raised: #3b3b3b;
+  --cream: #f6ede8;
+  --cream-dim: rgba(246, 237, 232, 0.5);
+  --cream-faint: rgba(246, 237, 232, 0.14);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  background: var(--ink);
+  color: var(--cream);
+  font: 13px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: default;
+}
+
+button { font: inherit; color: inherit; background: none; border: 0; cursor: default; }
+input { font: inherit; color: inherit; background: none; border: 0; outline: 0; }
+
+::selection { background: var(--cream); color: var(--ink); }

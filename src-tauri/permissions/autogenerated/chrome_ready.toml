@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-chrome-ready"
+description = "Enables the chrome_ready command without any pre-configured scope."
+commands.allow = ["chrome_ready"]
+
+[[permission]]
+identifier = "deny-chrome-ready"
+description = "Denies the chrome_ready command without any pre-configured scope."
+commands.deny = ["chrome_ready"]

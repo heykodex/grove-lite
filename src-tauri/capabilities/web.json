@@ -1,0 +1,19 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "web",
+  "description": "Ordinary web pages may only send keyboard shortcut names, nothing else",
+  "webviews": ["tab-*"],
+  "remote": {
+    "urls": [
+      "https://*",
+      "https://*/*",
+      "https://*:*",
+      "https://*:*/*",
+      "http://*",
+      "http://*/*",
+      "http://*:*",
+      "http://*:*/*"
+    ]
+  },
+  "permissions": ["allow-shortcut"]
+}

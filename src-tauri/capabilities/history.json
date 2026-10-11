@@ -1,0 +1,12 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "history",
+  "description": "The built-in history page",
+  "webviews": ["history"],
+  "permissions": [
+    "allow-history-list",
+    "allow-history-open",
+    "allow-history-clear",
+    "allow-shortcut"
+  ]
+}
